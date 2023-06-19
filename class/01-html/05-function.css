@@ -1,0 +1,7 @@
+.codebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 580px 0px 10px;
+}
+

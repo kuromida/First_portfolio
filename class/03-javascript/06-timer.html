@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>authenticCode</title>
+    <script src="./06-timer.js"></script>
+    <style>
+    .codebox{
+        display: flex;
+        flex-direction: row;
+        }
+    .acode {
+        margin-right: 10px;
+    }
+    .codebox2{
+        display: flex;
+        flex-direction: row;
+    }
+    .min_sec{
+        margin-right: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="codebox">
+        <div class="acode" id="target" >000000</div>
+        <button onclick="auth()">인증번호전송</button>
+    </div>
+    <div class="codebox2">
+        <div class="min_sec" id="timer">3:00</div>
+        <button id="finish">인증완료</button>
+    </div>
+  
+</body>
+</html>
